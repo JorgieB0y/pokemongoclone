@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF775ABF1E3427CE002C3F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */; };
+		CF775AC11E3427CE002C3F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF775AC01E3427CE002C3F40 /* ViewController.swift */; };
+		CF775AC41E3427CE002C3F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775AC21E3427CE002C3F40 /* Main.storyboard */; };
+		CF775AC71E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF775AC51E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld */; };
+		CF775AC91E3427CE002C3F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF775AC81E3427CE002C3F40 /* Assets.xcassets */; };
+		CF775ACC1E3427CF002C3F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775ACA1E3427CF002C3F40 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF775ABB1E3427CE002C3F40 /* Pokemon Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF775AC01E3427CE002C3F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF775AC31E3427CE002C3F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF775AC61E3427CE002C3F40 /* Pokemon_Clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Clone.xcdatamodel; sourceTree = "<group>"; };
+		CF775AC81E3427CE002C3F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF775ACB1E3427CF002C3F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF775ACD1E3427CF002C3F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF775AB81E3427CE002C3F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF775AB21E3427CE002C3F40 = {
+			isa = PBXGroup;
+			children = (
+				CF775ABD1E3427CE002C3F40 /* Pokemon Clone */,
+				CF775ABC1E3427CE002C3F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF775ABC1E3427CE002C3F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF775ABB1E3427CE002C3F40 /* Pokemon Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF775ABD1E3427CE002C3F40 /* Pokemon Clone */ = {
+			isa = PBXGroup;
+			children = (
+				CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */,
+				CF775AC01E3427CE002C3F40 /* ViewController.swift */,
+				CF775AC21E3427CE002C3F40 /* Main.storyboard */,
+				CF775AC81E3427CE002C3F40 /* Assets.xcassets */,
+				CF775ACA1E3427CF002C3F40 /* LaunchScreen.storyboard */,
+				CF775ACD1E3427CF002C3F40 /* Info.plist */,
+				CF775AC51E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld */,
+			);
+			path = "Pokemon Clone";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF775ABA1E3427CE002C3F40 /* Pokemon Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF775AD01E3427CF002C3F40 /* Build configuration list for PBXNativeTarget "Pokemon Clone" */;
+			buildPhases = (
+				CF775AB71E3427CE002C3F40 /* Sources */,
+				CF775AB81E3427CE002C3F40 /* Frameworks */,
+				CF775AB91E3427CE002C3F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Clone";
+			productName = "Pokemon Clone";
+			productReference = CF775ABB1E3427CE002C3F40 /* Pokemon Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF775AB31E3427CE002C3F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jorge Velasco Sanvodal";
+				TargetAttributes = {
+					CF775ABA1E3427CE002C3F40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF775AB61E3427CE002C3F40 /* Build configuration list for PBXProject "Pokemon Clone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF775AB21E3427CE002C3F40;
+			productRefGroup = CF775ABC1E3427CE002C3F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF775ABA1E3427CE002C3F40 /* Pokemon Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF775AB91E3427CE002C3F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF775ACC1E3427CF002C3F40 /* LaunchScreen.storyboard in Resources */,
+				CF775AC91E3427CE002C3F40 /* Assets.xcassets in Resources */,
+				CF775AC41E3427CE002C3F40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF775AB71E3427CE002C3F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF775AC11E3427CE002C3F40 /* ViewController.swift in Sources */,
+				CF775AC71E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld in Sources */,
+				CF775ABF1E3427CE002C3F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF775AC21E3427CE002C3F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF775AC31E3427CE002C3F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF775ACA1E3427CF002C3F40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF775ACB1E3427CF002C3F40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF775ACE1E3427CF002C3F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF775ACF1E3427CF002C3F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF775AD11E3427CF002C3F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgieboy.Pokemon-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF775AD21E3427CF002C3F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jorgieboy.Pokemon-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF775AB61E3427CE002C3F40 /* Build configuration list for PBXProject "Pokemon Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF775ACE1E3427CF002C3F40 /* Debug */,
+				CF775ACF1E3427CF002C3F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF775AD01E3427CF002C3F40 /* Build configuration list for PBXNativeTarget "Pokemon Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF775AD11E3427CF002C3F40 /* Debug */,
+				CF775AD21E3427CF002C3F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF775AC51E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF775AC61E3427CE002C3F40 /* Pokemon_Clone.xcdatamodel */,
+			);
+			currentVersion = CF775AC61E3427CE002C3F40 /* Pokemon_Clone.xcdatamodel */;
+			path = Pokemon_Clone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF775AB31E3427CE002C3F40 /* Project object */;
+}
