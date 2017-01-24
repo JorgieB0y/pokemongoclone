@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2CC5251E36DADE00413EFC /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2CC5241E36DADE00413EFC /* PokedexViewController.swift */; };
+		CF2CC5271E36DED500413EFC /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2CC5261E36DED500413EFC /* CoreDataHelp.swift */; };
+		CF6D801E1E37B1E500CA66AE /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D801D1E37B1E500CA66AE /* PokeAnnotation.swift */; };
 		CF775ABF1E3427CE002C3F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */; };
 		CF775AC11E3427CE002C3F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF775AC01E3427CE002C3F40 /* ViewController.swift */; };
 		CF775AC41E3427CE002C3F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF775AC21E3427CE002C3F40 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF2CC5241E36DADE00413EFC /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		CF2CC5261E36DED500413EFC /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
+		CF6D801D1E37B1E500CA66AE /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
 		CF775ABB1E3427CE002C3F40 /* Pokemon Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF775AC01E3427CE002C3F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 			children = (
 				CF775ABE1E3427CE002C3F40 /* AppDelegate.swift */,
 				CF775AC01E3427CE002C3F40 /* ViewController.swift */,
+				CF2CC5241E36DADE00413EFC /* PokedexViewController.swift */,
+				CF6D801D1E37B1E500CA66AE /* PokeAnnotation.swift */,
+				CF2CC5261E36DED500413EFC /* CoreDataHelp.swift */,
 				CF775AC21E3427CE002C3F40 /* Main.storyboard */,
 				CF775AC81E3427CE002C3F40 /* Assets.xcassets */,
 				CF775ACA1E3427CF002C3F40 /* LaunchScreen.storyboard */,
@@ -152,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF775AC11E3427CE002C3F40 /* ViewController.swift in Sources */,
+				CF6D801E1E37B1E500CA66AE /* PokeAnnotation.swift in Sources */,
+				CF2CC5251E36DADE00413EFC /* PokedexViewController.swift in Sources */,
 				CF775AC71E3427CE002C3F40 /* Pokemon_Clone.xcdatamodeld in Sources */,
+				CF2CC5271E36DED500413EFC /* CoreDataHelp.swift in Sources */,
 				CF775ABF1E3427CE002C3F40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +325,7 @@
 				CF775AD21E3427CF002C3F40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
